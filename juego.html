@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <section id="intro">
+        <h1>
+            Bienvenido al juego del acumulado
+        </h1>
+    </section>
+    <br>
+    <section id="contInput">
+        <p>
+            Ingrese el número del billete de loteria
+        </p>
+        <input type="number" id="numUser">
+        <br>
+        <p>
+            Ingrese la serie del billete de loteria
+        </p>
+        <input type="number" id="serUser">
+        <br>
+        <br>
+        <button id="btnIniciar" onclick="runGame(numUser.value, serUser.value)">Iniciar sorteo</button>
+    </section>
+    <br>
+    <br>
+    <section id="sorteoRes">
+        <div id="show">
+
+        </div>
+    </section>
+   </main>
+
+   <script src="js/juego.js"></script>
+</body>
+</html>
